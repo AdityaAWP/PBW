@@ -1,0 +1,59 @@
+body{
+    /* background-color: #0d033c;
+    color: white; */
+    font-family: 'Montserrat';
+}
+.welcome-text{
+    font-size: 100px;
+}
+.welcome-text span{
+    color: #64FFDA;
+}
+ul {
+    margin-top: 2%;
+    display: flex;
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+}
+.logo{
+    flex: 1;
+}
+.list{
+    flex: 1;
+    text-align: end;
+    align-self: center;
+}
+.list li{
+    padding-right: 20px; 
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.list li input{
+    background-color: #4B33B8;
+    color: white;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 16px;
+    box-shadow: 5px 5px black;
+}
+.list li input:hover{
+    box-shadow: none;
+}
+
+/* Welcome Page */
+.welcome-page{
+    margin-top: 170px;
+}
+.welcome-page .name{
+    font-size: 50px;
+    font-weight: 600;
+    margin: auto;
+    width: 900px;
+    text-align: center;
+}
+audio{
+    border: none;
+}
